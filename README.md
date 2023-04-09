@@ -10,7 +10,7 @@ and save your time from writing boilerplate code for every class - although stil
 - toJson.
 
 ## Usage
-First, we need to do add equatable to the dependencies of the pubspec.yaml
+First, we need to do add datac_generator to the dependencies of the pubspec.yaml
 ```yaml
 dev_dependencies:
   datac_generator: ^1.0.0

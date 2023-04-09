@@ -1,6 +1,6 @@
 name: datac_generator
 description: automation tools for generating data class methods.
-version: 1.0.0
+version: 1.0.2
 
 repository: https://github.com/noormajzoob/datac_generator
 
