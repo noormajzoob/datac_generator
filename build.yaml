@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      datac_generator|datac_annotations:
+        enabled: true
+
+builders:
+  generators:
+    target: ":datac_generator"
+    import: "package:datac_generator/datac_generator.dart"
+    builder_factories: ["dataClassGenerator"]
+    build_extensions: {".dart": [".g.dart"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]

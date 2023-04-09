@@ -1,0 +1,17 @@
+name: datac_generator
+description: automation tools for generating data class methods.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  datac_annotations: ^0.0.7
+  build: ^2.3.1
+  source_gen: ^1.2.7
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
+  build_runner: ^2.3.3
