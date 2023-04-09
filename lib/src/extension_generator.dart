@@ -1,5 +1,5 @@
 import 'package:analyzer/dart/element/element.dart';
-import 'package:build/src/builder/build_step.dart';
+import 'package:build/build.dart';
 import 'package:datac_annotations/datac_annotations.dart';
 import 'package:datac_generator/src/generation_controller/copy_with_method_controller.dart';
 import 'package:datac_generator/src/generation_controller/equal_method_controller.dart';

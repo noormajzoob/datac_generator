@@ -11,6 +11,7 @@ dependencies:
   datac_annotations: ^0.0.7
   build: ^2.3.1
   source_gen: ^1.2.7
+  analyzer: ^5.10.0
 
 dev_dependencies:
   lints: ^2.0.0

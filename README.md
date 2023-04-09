@@ -24,6 +24,12 @@ pub get
 # Flutter
 flutter packages get
 ```
+
+Import annotations package.
+```dart
+import 'package:datac_annotations/datac_annotations.dart';
+```
+
 Lastly, we need to mark class with *@DataClass()* annotation.
 
 ```dart
